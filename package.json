@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/DanielaCifuentes795/Market-Backend/issues"
   },
-  "homepage": "https://github.com/DanielaCifuentes795/Market-Backend#readme"
+  "homepage": "https://github.com/DanielaCifuentes795/Market-Backend#readme",
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "pg": "^8.23.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
