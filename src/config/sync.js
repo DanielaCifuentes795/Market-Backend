@@ -1,7 +1,7 @@
 const sequelize = require('./database.js')
 require('../models/index')
 
-class databasesync{
+class DatabaseSync{
     static async sync(){
         try{
             await sequelize.authenticate()
@@ -21,3 +21,4 @@ class databasesync{
     }
 } 
 
+module.exports = DatabaseSync;
